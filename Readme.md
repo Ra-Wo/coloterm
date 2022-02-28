@@ -58,14 +58,14 @@ const coloterm = require('coloterm');
 
 // Print 'text' to terminal
 coloterm.log('this is text', {
-   color: red,
-   background: white
+   color: "red",
+   background: "white"
 })
 
 // return 'text' after colored then print it to terminal
 const text = coloterm.text('this is text', {
-   color: red,
-   background: white
+   color: "red",
+   background: "white"
    });
 console.log(text)
 
